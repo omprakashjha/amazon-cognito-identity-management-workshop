@@ -58,10 +58,10 @@ Amazon Cognito User Pools lets you add user sign-up and sign-in capabilities to 
 
 18. **App clients**: Input **wildrydes-web-app** as the app client name.
 
-19. **App clients**: Uncheck the following:
+19. **App clients**: Make the following changes in default settings:
     *  *Set the expiration of the identity and access tokens to 45 minutes*
-    *  *Generate client secret*
-    *  *Enable SRP protocol based authentication*. 
+    *  *Uncheck Generate client secret*
+    *  *Uncheck Enable lambda trigger based custom authentication*.
 
     !!! info "App client settings"
         **Token expiration customization** - Each token expiration can be customized per your application design requirements.
